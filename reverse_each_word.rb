@@ -1,4 +1,3 @@
-require 'pry'
 def reverse_each_word(string)
   string_arr = string.split(" ")
   string_arr_two = []
@@ -8,4 +7,3 @@ def reverse_each_word(string)
   result = string_arr_two.join(" ")
   result
 end
-binding.pry
